@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-color: #f79cd1;
+}
+
+header {
+    height: 100px;
+    padding: 0 20px;
+    background-color: #7cf0f8;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#menuNavegacao {
+    display: flex;
+    gap: 40px;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+#menuNavegacao li a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#menuNavegacao li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center-content {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section {
+    align-items: center;
+    padding: 45px 30px;   /*estudar*/
+    margin: auto;
+    width: 970%;
+}
+
+.sub-section {
+    background-color: #d9dbdb;
+    width: 100%;
+}
+
+h1, h3 {
+    font-size: 1.75em; 
+    font-style: 'lexend Giga', italic;  
+    color: #fc37b0;
+}
+
+h2, h4 {
+    font-size: 1.25em;
+    color: #fc2c71;
+}
+
+
+.foto-perfil {
+    width: 150px;
+    border: 5px solid #85c7ee;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.foto-perfil:hover {
+    opacity: 0.5;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/* estudar espacamento */
+#contato li {
+    margin-right: 50px; 
+}
+
+#contato li {
+    margin-right: 50px; 
+}
+
+#contato li {
+    margin-right: 50px; 
+}
+
+
